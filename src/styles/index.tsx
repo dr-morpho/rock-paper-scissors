@@ -30,7 +30,6 @@ body {
     background-repeat: no-repeat;
     background: var(--background);
     color: var(--text);
-    overflow: hidden;
 }
 
 body[theme='light'] {

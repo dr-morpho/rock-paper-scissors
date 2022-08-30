@@ -64,12 +64,7 @@ const ListItem = styled(motion.li)`
   height: 160px;
   box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  transition: 0.2s ease;
   border: 0.5rem solid rgba(0, 0, 0, 0.3);
-  &:hover {
-    transition: 0.2s ease;
-    transform: scale(1.1);
-  }
   &.red {
     border: 0.5rem solid rgba(200, 33, 39, 0.8);
   }
