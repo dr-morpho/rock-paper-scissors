@@ -1,9 +1,8 @@
-/* import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'styled-normalize';
 
 export const GlobalStyle = createGlobalStyle`
-    ${normalize} */
-
+    ${normalize}
 *,
 *::before,
 *::after {
@@ -28,6 +27,7 @@ body {
   background-repeat: no-repeat;
   background: var(--background);
   color: var(--text);
+  width: 100%;
 }
 
 body[theme='light'] {
@@ -43,3 +43,4 @@ body[theme='dark'] {
   --ui-text: var(--dark-text);
   --ui-background: var(--light);
 }
+`;
