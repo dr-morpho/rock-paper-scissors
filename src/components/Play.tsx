@@ -41,6 +41,7 @@ const Play: React.FC = () => {
 };
 
 const List = styled(motion.ul)`
+  padding: 2rem 0;
   max-width: 450px;
   width: 100%;
   display: flex;
