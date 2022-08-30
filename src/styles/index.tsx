@@ -24,8 +24,6 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-    min-height: 100vh; 
-    padding: 1.5rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-repeat: no-repeat;
     background: var(--background);

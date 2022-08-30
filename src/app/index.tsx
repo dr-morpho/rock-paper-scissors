@@ -22,6 +22,7 @@ const App: React.FC = () => {
 };
 
 const Wrapper = styled.div`
+  padding: 1.5rem;
   max-width: 790px;
   width: 100%;
   margin: 0 auto;
@@ -29,7 +30,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  min-height: calc(100vh - 48px);
+  min-height: 100vh;
 `;
 
 export default App;
